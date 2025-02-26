@@ -9,7 +9,7 @@ const prisma = new PrismaClient();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://accredian-frontend-task-fqtdfoizo-alankars-projects.vercel.app",
+    origin: "https://accredian-frontend-task-fqtdfoizo-alankars-projects.vercel.app/",
   })
 );
 
